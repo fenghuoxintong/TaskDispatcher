@@ -1,0 +1,638 @@
+从list:task:submit队列中获取20个任务
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+MLog clients using log4j logging.
+Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge15x9c1gx0uvp1brlhkm|3057d6ee, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge15x9c1gx0uvp1brlhkm|3057d6ee, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+任务redis,取到空链接
+
+写入redis连接池内未取到连接,无法加入数据队列
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+从list:task:submit队列中获取20个任务
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+MLog clients using log4j logging.
+Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge15x9c1gx4zuslnt24|421ad9fa, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge15x9c1gx4zuslnt24|421ad9fa, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+sql:select * from logic_full_cityname where seg = ?
+
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+submitTask的状态  maskPackageCode:10,province:0023,isp:0,userId:10002003,userType:1
+
+10002003,1,0,10,225,0023
+
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+

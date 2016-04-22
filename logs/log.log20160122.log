@@ -1,0 +1,56 @@
+[ERROR]2016-01-22 11:08:34,592-AcquireTask.run()异常:MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[ERROR]2016-01-22 11:09:05,003-任务redis,取到空链接
+[INFO ]2016-01-22 11:09:05,003-读取redis连接池内未取到连接,无法取得队列数据
+[INFO ]2016-01-22 11:57:08,225-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 11:58:29,204-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 12:11:33,381-从list:task:submit队列中获取3个任务
+[INFO ]2016-01-22 13:16:14,430-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 13:18:52,418-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 13:18:52,482-提交号码错误
+[INFO ]2016-01-22 13:18:52,684-MLog clients using log4j logging.
+[INFO ]2016-01-22 13:18:53,563-Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+[INFO ]2016-01-22 13:18:53,845-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge6f59essje0o1hcgd5e|4358be90, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge6f59essje0o1hcgd5e|4358be90, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/db_client, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[ERROR]2016-01-22 13:18:55,797-提交流量包代码格式错误.
+[ERROR]2016-01-22 13:18:55,797-ThreadPoolTask.run异常:null
+[INFO ]2016-01-22 13:19:10,558-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 13:19:10,558-提交号码错误
+[ERROR]2016-01-22 13:19:10,558-提交流量包代码格式错误.
+[ERROR]2016-01-22 13:19:10,558-ThreadPoolTask.run异常:null
+[INFO ]2016-01-22 13:21:33,125-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 13:21:33,141-提交号码错误
+[ERROR]2016-01-22 13:21:33,141-提交流量包代码格式错误.
+[ERROR]2016-01-22 13:21:33,141-ThreadPoolTask.run异常:null
+[INFO ]2016-01-22 13:23:38,981-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 13:23:38,981-提交号码错误
+[ERROR]2016-01-22 13:23:38,981-提交流量包代码格式错误.
+[ERROR]2016-01-22 13:23:38,981-ThreadPoolTask.run异常:null
+[INFO ]2016-01-22 13:24:12,709-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 13:24:12,709-提交号码错误
+[ERROR]2016-01-22 13:24:12,709-提交流量包代码格式错误.
+[ERROR]2016-01-22 13:24:12,709-ThreadPoolTask.run异常:null
+[INFO ]2016-01-22 13:27:08,592-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 13:34:37,290-提交号码错误
+[INFO ]2016-01-22 13:34:37,322-MLog clients using log4j logging.
+[INFO ]2016-01-22 13:34:37,607-Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+[INFO ]2016-01-22 13:34:37,732-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge6f59est3msp18t37gy|522305c2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge6f59est3msp18t37gy|522305c2, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/db_client, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[ERROR]2016-01-22 13:34:37,953-提交流量包代码格式错误.
+[ERROR]2016-01-22 13:34:37,953-ThreadPoolTask.run异常:null
+[INFO ]2016-01-22 13:35:32,183-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 14:24:21,816-提交号码错误
+[ERROR]2016-01-22 14:26:23,814-提交流量包代码格式错误.
+[ERROR]2016-01-22 14:27:00,406-ThreadPoolTask.run异常:null
+[INFO ]2016-01-22 14:50:19,016-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 14:55:17,085-clientid:10002003,supporttype:0,isp_id:0,packagesize:2,province:0001
+[INFO ]2016-01-22 14:55:17,085- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[ERROR]2016-01-22 14:56:47,732-没有合适的网关匹配
+[INFO ]2016-01-22 15:14:33,710-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 15:19:21,613-clientid:10002015,supporttype:0,isp_id:0,packagesize:2,province:0001
+[INFO ]2016-01-22 15:19:21,613- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2016-01-22 15:24:15,409-A145189356830347513,13810727157派发至list:gateway:zw_qw_0000网关队列
+[INFO ]2016-01-22 16:17:53,134-从list:task:submit队列中获取1个任务
+[INFO ]2016-01-22 16:17:53,182-MLog clients using log4j logging.
+[INFO ]2016-01-22 16:17:53,463-Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+[INFO ]2016-01-22 16:17:53,572-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge6f59esyxlcd1ltmo3g|bb02e3, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge6f59esyxlcd1ltmo3g|bb02e3, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/db_client, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ]2016-01-22 16:17:53,790-clientid:10002015,supporttype:0,isp_id:0,packagesize:2,province:0001
+[INFO ]2016-01-22 16:17:53,790- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2016-01-22 16:17:54,024-A145189356830347513,13810727157派发至list:gateway:zw_qw_0000网关队列

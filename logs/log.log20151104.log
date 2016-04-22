@@ -1,0 +1,779 @@
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1m18oic1hyqx4b|51ead5b, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1m18oic1hyqx4b|51ead5b, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+submitTask的状态  maskPackageCode:10,province:010,isp:0,userId:10002003,userType:1
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+派发任务至list:gateway:cmpp_qw_0000网关队列
+
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1m1cml71knfnam|719f9c2e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1m1cml71knfnam|719f9c2e, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1m616jm181l65f|25c6ca49, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1m616jm181l65f|25c6ca49, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1m91dyotuy8dk|6e5170a8, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1m91dyotuy8dk|6e5170a8, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1m948ek1kuij3s|923ef32, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1m948ek1kuij3s|923ef32, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+从list:task:submit队列中获取50个任务
+
+MLog clients using log4j logging.
+Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1m9aeqd1u3mt89|1b9ce804, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1m9aeqd1u3mt89|1b9ce804, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+从list:task:submit队列中获取50个任务
+
+从list:task:submit队列中获取50个任务
+
+MLog clients using log4j logging.
+Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1m9gfh41nzdceq|45e70a5a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1m9gfh41nzdceq|45e70a5a, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+从list:task:submit队列中获取50个任务
+
+从list:task:submit队列中获取50个任务
+
+从list:task:submit队列中获取50个任务
+
+从list:task:submit队列中获取50个任务
+
+MLog clients using log4j logging.
+Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1m9j0tk17dzz65|6033cf4d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1m9j0tk17dzz65|6033cf4d, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+从list:task:submit队列中获取50个任务
+
+从list:task:submit队列中获取50个任务
+
+从list:task:submit队列中获取20个任务
+
+MLog clients using log4j logging.
+Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1m9ljpn1leyhgk|72d97267, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1m9ljpn1leyhgk|72d97267, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+从list:task:submit队列中获取20个任务
+
+从list:task:submit队列中获取20个任务
+
+从list:task:submit队列中获取20个任务
+
+从list:task:submit队列中获取20个任务
+
+从list:task:submit队列中获取20个任务
+
+从list:task:submit队列中获取20个任务
+
+MLog clients using log4j logging.
+Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+com.mysql.jdbc.Driver
+
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+root
+
+*UHB(IJN8uhb9ijn
+
+2
+
+60
+
+3000
+
+false
+
+false
+
+0
+
+600
+
+3
+
+6000
+
+3
+
+0
+
+0
+
+3
+
+select sysdate() from dual
+
+300
+
+false
+
+true
+
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1m9n6n91h08dpg|3d56fb2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1m9n6n91h08dpg|3d56fb2, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+从list:task:submit队列中获取20个任务
+
+从list:task:submit队列中获取20个任务
+
+从list:task:submit队列中获取20个任务
+
+从list:task:submit队列中获取20个任务
+
+从list:task:submit队列中获取20个任务
+
+从list:task:submit队列中获取20个任务
+
+从list:task:submit队列中获取20个任务
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:47:27,850 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:47:29,731 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:47:31,622 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:47:33,593 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:47:53,685 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:47:55,006 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:47:56,028 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:47:56,999 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:47:57,999 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:47:59,050 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:48:00,101 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:48:01,042 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:48:01,992 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:48:03,043 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:48:04,035 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:48:05,316 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-04 23:48:06,477 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+

@@ -1,0 +1,78 @@
+[ERROR]2016-04-15 16:56:21,871-AcquireTask.run()异常:null
+[ERROR]2016-04-15 16:56:24,403-AcquireTask.run()异常:null
+[ERROR]2016-04-15 16:56:26,836-AcquireTask.run()异常:null
+[ERROR]2016-04-15 16:56:29,260-AcquireTask.run()异常:null
+[ERROR]2016-04-15 16:57:52,888-AcquireTask.run()异常:null
+[ERROR]2016-04-15 16:57:56,239-AcquireTask.run()异常:null
+[ERROR]2016-04-15 16:57:59,614-AcquireTask.run()异常:null
+[ERROR]2016-04-15 16:58:03,104-AcquireTask.run()异常:null
+[ERROR]2016-04-15 16:58:06,372-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:00:17,019-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:00:19,178-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:00:21,373-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:00:23,687-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:00:26,273-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:00:28,507-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:00:30,727-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:00:32,949-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:00:35,133-AcquireTask.run()异常:null
+[INFO ]2016-04-15 17:08:06,378-从list:task:submit队列中获取11个任务
+[INFO ]2016-04-15 17:08:06,421-MLog clients using log4j logging.
+[INFO ]2016-04-15 17:08:06,515-Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+[INFO ]2016-04-15 17:08:06,567-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgf2819g6zhmeyblgijt|170bea5, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgf2819g6zhmeyblgijt|170bea5, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://120.27.111.79:3306/mobile_traffic?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ]2016-04-15 17:08:12,660-clientid:10002015,supporttype:0,isp_id:0,packagesize:10,province:0001
+[INFO ]2016-04-15 17:08:12,660- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize = ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2016-04-15 17:08:12,839-clientid:10002015,supporttype:0,isp_id:0,packagesize:10,province:0001
+[INFO ]2016-04-15 17:08:12,839- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize = ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2016-04-15 17:08:13,021-clientid:10002015,supporttype:0,isp_id:0,packagesize:10,province:0001
+[INFO ]2016-04-15 17:08:13,021- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize = ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2016-04-15 17:08:13,195-clientid:10002015,supporttype:0,isp_id:0,packagesize:10,province:0001
+[INFO ]2016-04-15 17:08:13,195- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize = ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2016-04-15 17:08:13,376-clientid:10002015,supporttype:0,isp_id:0,packagesize:10,province:0001
+[INFO ]2016-04-15 17:08:13,376- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize = ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2016-04-15 17:08:13,553-clientid:10002015,supporttype:0,isp_id:0,packagesize:10,province:0001
+[INFO ]2016-04-15 17:08:13,554- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize = ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[ERROR]2016-04-15 17:08:13,777-没有合适的网关匹配
+[ERROR]2016-04-15 17:08:13,956-没有合适的网关匹配
+[ERROR]2016-04-15 17:08:14,135-没有合适的网关匹配
+[ERROR]2016-04-15 17:08:14,314-没有合适的网关匹配
+[ERROR]2016-04-15 17:08:14,491-没有合适的网关匹配
+[ERROR]2016-04-15 17:08:15,496-没有合适的网关匹配
+[INFO ]2016-04-15 17:08:15,672-clientid:10002015,supporttype:0,isp_id:0,packagesize:10,province:0001
+[INFO ]2016-04-15 17:08:15,672- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize = ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2016-04-15 17:08:15,852-clientid:10002015,supporttype:0,isp_id:0,packagesize:10,province:0001
+[INFO ]2016-04-15 17:08:15,852- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize = ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2016-04-15 17:08:16,027-clientid:10002015,supporttype:0,isp_id:0,packagesize:10,province:0001
+[INFO ]2016-04-15 17:08:16,028- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize = ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[ERROR]2016-04-15 17:08:16,416-没有合适的网关匹配
+[ERROR]2016-04-15 17:08:16,596-没有合适的网关匹配
+[ERROR]2016-04-15 17:08:16,773-没有合适的网关匹配
+[INFO ]2016-04-15 17:08:17,535-clientid:10002015,supporttype:0,isp_id:0,packagesize:10,province:0001
+[INFO ]2016-04-15 17:08:17,535- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize = ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2016-04-15 17:08:17,544-clientid:10002015,supporttype:0,isp_id:0,packagesize:10,province:0001
+[INFO ]2016-04-15 17:08:17,544- select vcode ,pcode, packagesize, realcode, assignprice, dprice, isp_id from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize = ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[ERROR]2016-04-15 17:08:22,189-没有合适的网关匹配
+[ERROR]2016-04-15 17:08:22,276-没有合适的网关匹配
+[ERROR]2016-04-15 17:08:25,279-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:08:28,188-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:08:31,139-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:08:34,132-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:08:37,068-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:08:40,303-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:08:43,237-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:08:46,165-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:08:49,110-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:08:52,075-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:08:55,023-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:08:57,949-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:09:00,821-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:09:03,750-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:09:06,653-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:09:09,600-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:09:12,471-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:09:15,353-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:09:18,337-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:09:21,272-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:09:24,179-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:09:27,307-AcquireTask.run()异常:null
+[ERROR]2016-04-15 17:09:30,305-AcquireTask.run()异常:null

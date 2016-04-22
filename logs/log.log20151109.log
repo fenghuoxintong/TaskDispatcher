@@ -1,0 +1,113 @@
+[INFO ]2015-11-09 15:37:42,492-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 15:38:15,495-MLog clients using log4j logging.
+[INFO ]2015-11-09 15:38:16,300-Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+[INFO ]2015-11-09 15:38:16,614-com.mysql.jdbc.Driver
+[INFO ]2015-11-09 15:38:16,624-jdbc:mysql://58.64.147.72:3306/mobile_traffic
+[INFO ]2015-11-09 15:38:16,624-root
+[INFO ]2015-11-09 15:38:16,624-*UHB(IJN8uhb9ijn
+[INFO ]2015-11-09 15:38:16,624-2
+[INFO ]2015-11-09 15:38:16,624-60
+[INFO ]2015-11-09 15:38:16,624-3000
+[INFO ]2015-11-09 15:38:16,624-false
+[INFO ]2015-11-09 15:38:16,624-false
+[INFO ]2015-11-09 15:38:16,624-0
+[INFO ]2015-11-09 15:38:16,624-600
+[INFO ]2015-11-09 15:38:16,624-3
+[INFO ]2015-11-09 15:38:16,624-6000
+[INFO ]2015-11-09 15:38:16,624-3
+[INFO ]2015-11-09 15:38:16,624-0
+[INFO ]2015-11-09 15:38:16,624-0
+[INFO ]2015-11-09 15:38:16,624-3
+[INFO ]2015-11-09 15:38:16,624-select sysdate() from dual
+[INFO ]2015-11-09 15:38:16,624-300
+[INFO ]2015-11-09 15:38:16,624-false
+[INFO ]2015-11-09 15:38:16,624-true
+[INFO ]2015-11-09 15:38:16,918-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1t95pg88f08sf|76fa4dab, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1t95pg88f08sf|76fa4dab, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ]2015-11-09 15:44:26,595-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 15:44:26,696-MLog clients using log4j logging.
+[INFO ]2015-11-09 15:44:26,956-Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+[INFO ]2015-11-09 15:44:27,066-com.mysql.jdbc.Driver
+[INFO ]2015-11-09 15:44:27,066-jdbc:mysql://58.64.147.72:3306/mobile_traffic
+[INFO ]2015-11-09 15:44:27,066-root
+[INFO ]2015-11-09 15:44:27,066-*UHB(IJN8uhb9ijn
+[INFO ]2015-11-09 15:44:27,066-2
+[INFO ]2015-11-09 15:44:27,066-60
+[INFO ]2015-11-09 15:44:27,066-3000
+[INFO ]2015-11-09 15:44:27,076-false
+[INFO ]2015-11-09 15:44:27,076-false
+[INFO ]2015-11-09 15:44:27,076-0
+[INFO ]2015-11-09 15:44:27,076-600
+[INFO ]2015-11-09 15:44:27,076-3
+[INFO ]2015-11-09 15:44:27,076-6000
+[INFO ]2015-11-09 15:44:27,076-3
+[INFO ]2015-11-09 15:44:27,076-0
+[INFO ]2015-11-09 15:44:27,076-0
+[INFO ]2015-11-09 15:44:27,076-3
+[INFO ]2015-11-09 15:44:27,076-select sysdate() from dual
+[INFO ]2015-11-09 15:44:27,076-300
+[INFO ]2015-11-09 15:44:27,076-false
+[INFO ]2015-11-09 15:44:27,076-true
+[INFO ]2015-11-09 15:44:27,146-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1t9dnri10rwpht|721bdf30, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1t9dnri10rwpht|721bdf30, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ]2015-11-09 15:44:28,217-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 15:44:28,217- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-09 15:54:30,206-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 15:54:30,298-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 15:54:30,298- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-09 16:01:35,182-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 16:01:35,273-MLog clients using log4j logging.
+[INFO ]2015-11-09 16:01:35,513-Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+[INFO ]2015-11-09 16:01:35,613-com.mysql.jdbc.Driver
+[INFO ]2015-11-09 16:01:35,613-jdbc:mysql://58.64.147.72:3306/mobile_traffic
+[INFO ]2015-11-09 16:01:35,613-root
+[INFO ]2015-11-09 16:01:35,613-*UHB(IJN8uhb9ijn
+[INFO ]2015-11-09 16:01:35,613-2
+[INFO ]2015-11-09 16:01:35,613-60
+[INFO ]2015-11-09 16:01:35,613-3000
+[INFO ]2015-11-09 16:01:35,613-false
+[INFO ]2015-11-09 16:01:35,613-false
+[INFO ]2015-11-09 16:01:35,613-0
+[INFO ]2015-11-09 16:01:35,613-600
+[INFO ]2015-11-09 16:01:35,613-3
+[INFO ]2015-11-09 16:01:35,613-6000
+[INFO ]2015-11-09 16:01:35,623-3
+[INFO ]2015-11-09 16:01:35,623-0
+[INFO ]2015-11-09 16:01:35,623-0
+[INFO ]2015-11-09 16:01:35,623-3
+[INFO ]2015-11-09 16:01:35,623-select sysdate() from dual
+[INFO ]2015-11-09 16:01:35,623-300
+[INFO ]2015-11-09 16:01:35,623-false
+[INFO ]2015-11-09 16:01:35,623-true
+[INFO ]2015-11-09 16:01:35,693-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75w9c1t9zpetnzvukn|2a866463, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75w9c1t9zpetnzvukn|2a866463, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ]2015-11-09 16:01:36,725-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 16:01:36,725- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-09 16:04:29,030-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 16:04:29,611-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 16:04:29,611- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-09 16:06:47,382-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 16:06:47,513-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 16:06:47,513- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-09 16:09:36,448-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 16:09:36,579-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 16:09:36,579- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-09 16:43:45,916-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 16:43:46,027-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 16:43:46,027- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-09 16:45:17,222-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 16:45:17,343-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 16:45:17,343- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-09 16:48:11,471-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 16:48:11,592-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 16:48:11,592- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-09 17:15:40,743-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 17:15:40,932-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 17:15:40,932- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-09 17:23:24,461-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 17:23:24,627-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 17:23:24,628- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[ERROR]2015-11-09 18:41:14,510-AcquireTask.run()异常:java.net.SocketTimeoutException: Read timed out
+[INFO ]2015-11-09 18:48:05,429-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 18:48:05,520-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 18:48:05,520- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-09 18:55:31,105-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-09 18:55:31,249-10002003,1,0,5,90,0022
+[INFO ]2015-11-09 18:55:31,249- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1

@@ -1,0 +1,127 @@
+[INFO ]2015-11-07 00:55:49,150-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-07 00:56:42,827-MLog clients using log4j logging.
+[INFO ]2015-11-07 00:56:43,812-Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+[INFO ]2015-11-07 00:56:44,810-com.mysql.jdbc.Driver
+[INFO ]2015-11-07 00:56:44,810-jdbc:mysql://58.64.147.72:3306/mobile_traffic
+[INFO ]2015-11-07 00:56:44,810-root
+[INFO ]2015-11-07 00:56:44,810-*UHB(IJN8uhb9ijn
+[INFO ]2015-11-07 00:56:44,810-2
+[INFO ]2015-11-07 00:56:44,810-60
+[INFO ]2015-11-07 00:56:44,810-3000
+[INFO ]2015-11-07 00:56:44,810-false
+[INFO ]2015-11-07 00:56:44,810-false
+[INFO ]2015-11-07 00:56:44,810-0
+[INFO ]2015-11-07 00:56:44,826-600
+[INFO ]2015-11-07 00:56:44,826-3
+[INFO ]2015-11-07 00:56:44,826-6000
+[INFO ]2015-11-07 00:56:44,826-3
+[INFO ]2015-11-07 00:56:44,826-0
+[INFO ]2015-11-07 00:56:44,826-0
+[INFO ]2015-11-07 00:56:44,826-3
+[INFO ]2015-11-07 00:56:44,826-select sysdate() from dual
+[INFO ]2015-11-07 00:56:44,826-300
+[INFO ]2015-11-07 00:56:44,826-false
+[INFO ]2015-11-07 00:56:44,826-true
+[INFO ]2015-11-07 00:56:45,499-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgf5ts9c1pisbxi10tp186|18feb66a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgf5ts9c1pisbxi10tp186|18feb66a, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ]2015-11-07 00:57:26,512-10002003,1,0,70,750,0023
+[INFO ]2015-11-07 00:57:26,512- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-07 01:21:14,790-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-07 01:21:15,150-MLog clients using log4j logging.
+[INFO ]2015-11-07 01:21:15,696-Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+[INFO ]2015-11-07 01:21:15,930-com.mysql.jdbc.Driver
+[INFO ]2015-11-07 01:21:15,930-jdbc:mysql://58.64.147.72:3306/mobile_traffic
+[INFO ]2015-11-07 01:21:15,930-root
+[INFO ]2015-11-07 01:21:15,930-*UHB(IJN8uhb9ijn
+[INFO ]2015-11-07 01:21:15,930-2
+[INFO ]2015-11-07 01:21:15,930-60
+[INFO ]2015-11-07 01:21:15,930-3000
+[INFO ]2015-11-07 01:21:15,930-false
+[INFO ]2015-11-07 01:21:15,977-false
+[INFO ]2015-11-07 01:21:15,977-0
+[INFO ]2015-11-07 01:21:15,977-600
+[INFO ]2015-11-07 01:21:15,977-3
+[INFO ]2015-11-07 01:21:15,977-6000
+[INFO ]2015-11-07 01:21:15,977-3
+[INFO ]2015-11-07 01:21:15,977-0
+[INFO ]2015-11-07 01:21:15,977-0
+[INFO ]2015-11-07 01:21:15,977-3
+[INFO ]2015-11-07 01:21:15,977-select sysdate() from dual
+[INFO ]2015-11-07 01:21:15,977-300
+[INFO ]2015-11-07 01:21:15,977-false
+[INFO ]2015-11-07 01:21:15,977-true
+[INFO ]2015-11-07 01:21:16,196-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgf5ts9c1pjnvuz161mjul|30232e5a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgf5ts9c1pjnvuz161mjul|30232e5a, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[ERROR]2015-11-07 01:21:18,833-提交流量包代码格式错误.
+[INFO ]2015-11-07 01:23:48,577-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-07 01:26:40,856-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-07 01:26:46,321-提交号码错误
+[INFO ]2015-11-07 01:26:46,478-MLog clients using log4j logging.
+[INFO ]2015-11-07 01:26:47,133-Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+[INFO ]2015-11-07 01:26:47,398-com.mysql.jdbc.Driver
+[INFO ]2015-11-07 01:26:47,398-jdbc:mysql://58.64.147.72:3306/mobile_traffic
+[INFO ]2015-11-07 01:26:47,398-root
+[INFO ]2015-11-07 01:26:47,398-*UHB(IJN8uhb9ijn
+[INFO ]2015-11-07 01:26:47,398-2
+[INFO ]2015-11-07 01:26:47,398-60
+[INFO ]2015-11-07 01:26:47,398-3000
+[INFO ]2015-11-07 01:26:47,398-false
+[INFO ]2015-11-07 01:26:47,398-false
+[INFO ]2015-11-07 01:26:47,398-0
+[INFO ]2015-11-07 01:26:47,398-600
+[INFO ]2015-11-07 01:26:47,398-3
+[INFO ]2015-11-07 01:26:47,398-6000
+[INFO ]2015-11-07 01:26:47,398-3
+[INFO ]2015-11-07 01:26:47,398-0
+[INFO ]2015-11-07 01:26:47,398-0
+[INFO ]2015-11-07 01:26:47,398-3
+[INFO ]2015-11-07 01:26:47,398-select sysdate() from dual
+[INFO ]2015-11-07 01:26:47,430-300
+[INFO ]2015-11-07 01:26:47,430-false
+[INFO ]2015-11-07 01:26:47,430-true
+[INFO ]2015-11-07 01:26:47,571-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgf5ts9c1pjuzk938lrvm|536d6585, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgf5ts9c1pjuzk938lrvm|536d6585, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ]2015-11-07 01:27:51,952-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-07 01:29:51,578-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-07 01:29:51,673-号码为红名单
+[INFO ]2015-11-07 01:30:26,499-从list:task:submit队列中获取1个任务
+[ERROR]2015-11-07 01:30:26,610-提交流量包代码格式错误.
+[INFO ]2015-11-07 01:30:40,776-从list:task:submit队列中获取1个任务
+[ERROR]2015-11-07 01:30:40,887-提交流量包代码格式错误.
+[INFO ]2015-11-07 01:30:51,619-从list:task:submit队列中获取1个任务
+[ERROR]2015-11-07 01:30:51,761-提交流量包代码格式错误.
+[INFO ]2015-11-07 01:31:18,020-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-07 01:31:18,239-10002003,1,0,70,750,0023
+[INFO ]2015-11-07 01:31:18,239- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-07 01:37:27,779-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-07 01:37:28,014-10002003,1,0,10,216,010
+[INFO ]2015-11-07 01:37:28,014- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-07 01:42:55,736-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-07 01:44:44,727-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-07 01:44:45,040-MLog clients using log4j logging.
+[INFO ]2015-11-07 01:44:45,633-Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+[INFO ]2015-11-07 01:44:45,929-com.mysql.jdbc.Driver
+[INFO ]2015-11-07 01:44:45,929-jdbc:mysql://58.64.147.72:3306/mobile_traffic
+[INFO ]2015-11-07 01:44:45,929-root
+[INFO ]2015-11-07 01:44:45,929-*UHB(IJN8uhb9ijn
+[INFO ]2015-11-07 01:44:45,929-2
+[INFO ]2015-11-07 01:44:45,929-60
+[INFO ]2015-11-07 01:44:45,929-3000
+[INFO ]2015-11-07 01:44:45,929-false
+[INFO ]2015-11-07 01:44:45,929-false
+[INFO ]2015-11-07 01:44:45,929-0
+[INFO ]2015-11-07 01:44:45,929-600
+[INFO ]2015-11-07 01:44:45,929-3
+[INFO ]2015-11-07 01:44:45,929-6000
+[INFO ]2015-11-07 01:44:45,929-3
+[INFO ]2015-11-07 01:44:45,929-0
+[INFO ]2015-11-07 01:44:45,929-0
+[INFO ]2015-11-07 01:44:45,929-3
+[INFO ]2015-11-07 01:44:45,929-select sysdate() from dual
+[INFO ]2015-11-07 01:44:45,961-300
+[INFO ]2015-11-07 01:44:45,961-false
+[INFO ]2015-11-07 01:44:45,961-true
+[INFO ]2015-11-07 01:44:46,149-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgf5ts9c1pki3qlx05bkl|99b2061, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgf5ts9c1pki3qlx05bkl|99b2061, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ]2015-11-07 01:44:48,303-10002003,1,0,30,350,0023
+[INFO ]2015-11-07 01:44:48,303- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+[INFO ]2015-11-07 01:44:48,413-没有合适的网关匹配
+[INFO ]2015-11-07 01:46:49,432-从list:task:submit队列中获取1个任务
+[INFO ]2015-11-07 01:46:49,699-10002003,1,0,30,375,0023
+[INFO ]2015-11-07 01:46:49,699- select vcode ,pcode, packagesize, realcode, assignprice from packagerelation where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1

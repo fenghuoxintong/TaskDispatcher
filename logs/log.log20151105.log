@@ -1,0 +1,339 @@
+/n/n[INFO ] 2015-11-05 15:51:54,256 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+从list:task:submit队列中获取3个任务
+
+/n/n[INFO ] 2015-11-05 15:51:54,647 method:com.mchange.v2.log.MLog$1.run(MLog.java:124)
+MLog clients using log4j logging.
+/n/n[INFO ] 2015-11-05 15:51:55,272 method:com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:248)
+Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10]
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+com.mysql.jdbc.Driver
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+jdbc:mysql://58.64.147.72:3306/mobile_traffic
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+root
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+*UHB(IJN8uhb9ijn
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+2
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+60
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+3000
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+false
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+false
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+0
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+600
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+3
+
+/n/n[INFO ] 2015-11-05 15:51:55,585 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+6000
+
+/n/n[INFO ] 2015-11-05 15:51:55,601 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+3
+
+/n/n[INFO ] 2015-11-05 15:51:55,616 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+0
+
+/n/n[INFO ] 2015-11-05 15:51:55,616 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+0
+
+/n/n[INFO ] 2015-11-05 15:51:55,616 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+3
+
+/n/n[INFO ] 2015-11-05 15:51:55,616 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+select sysdate() from dual
+
+/n/n[INFO ] 2015-11-05 15:51:55,616 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+300
+
+/n/n[INFO ] 2015-11-05 15:51:55,616 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+false
+
+/n/n[INFO ] 2015-11-05 15:51:55,616 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+true
+
+/n/n[INFO ] 2015-11-05 15:51:55,866 method:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:527)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 60, acquireRetryDelay -> 3000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge75v9c1njvut0137jl3i|13e7f00e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge75v9c1njvut0137jl3i|13e7f00e, idleConnectionTestPeriod -> 600, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://58.64.147.72:3306/mobile_traffic, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> select sysdate() from dual, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 300, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+/n/n[INFO ] 2015-11-05 15:51:57,052 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:51:59,642 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:02,329 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:04,982 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:07,573 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:09,976 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+10002004,1,0,10,225,0012
+
+/n/n[INFO ] 2015-11-05 15:52:09,976 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+/n/n[INFO ] 2015-11-05 15:52:10,102 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:12,631 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:15,394 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:18,081 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:20,689 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:23,295 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:25,683 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:28,258 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:30,772 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:33,317 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:35,846 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:36,643 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+10002004,1,0,10,216,0023
+
+/n/n[INFO ] 2015-11-05 15:52:36,659 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+/n/n[INFO ] 2015-11-05 15:52:38,439 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:40,890 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+从list:task:submit队列中获取1个任务
+
+/n/n[INFO ] 2015-11-05 15:52:43,346 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:45,892 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:48,545 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:51,057 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:53,695 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:56,239 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:52:58,892 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:01,435 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:04,088 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:06,663 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:09,238 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:11,738 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:14,235 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:16,686 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:19,417 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:22,086 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:24,663 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:27,148 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:29,582 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:32,236 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:34,782 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:37,294 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:39,776 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:42,291 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:44,944 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:47,504 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:49,985 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:52,607 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:55,154 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:53:57,682 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:00,229 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:02,946 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:05,506 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:08,174 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:10,718 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:13,231 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:13,871 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+packageRelation=null 没有匹配到关系
+
+/n/n[INFO ] 2015-11-05 15:54:15,712 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:17,180 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+10002004,1,0,10,225,0012
+
+/n/n[INFO ] 2015-11-05 15:54:17,180 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+/n/n[INFO ] 2015-11-05 15:54:18,508 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:20,976 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:23,582 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:26,174 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:28,641 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:31,201 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:33,514 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+10002004,1,0,10,225,0012
+
+/n/n[INFO ] 2015-11-05 15:54:33,514 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+ select vcode ,pcode, packagesize, assignprice from packagerelation_new where status = 1 and clientid = ? and supporttype >= ? and isp_id = ? and packagesize >= ? and assignprice = ? and ((province = '0000' and FIND_IN_SET(?, delprovince)=0) or (FIND_IN_SET(?, province)!=0)) order by weight DESC ,(assignprice - dprice) desc  limit 1
+
+/n/n[INFO ] 2015-11-05 15:54:33,609 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:36,198 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:38,851 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:41,348 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:43,845 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:46,405 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:48,917 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:51,383 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:53,927 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:56,549 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:54:59,031 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:55:01,606 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:55:04,087 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:55:06,540 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:55:08,990 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:55:11,504 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:55:14,095 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:55:16,639 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
+/n/n[INFO ] 2015-11-05 15:55:19,261 method:com.bjym.mobiledata.utils.LoggerUtil.info(LoggerUtil.java:25)
+没有获取到任务..
+
